@@ -1,0 +1,614 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(77, 77, 231);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.NavOne {
+  color: White;
+  text-decoration: none;
+}
+.NavOne:hover {
+  color: rgba(128, 128, 128, 0.633);
+  font-weight: 500;
+}
+.active .NavOneTag:hover {
+  color: red !important;
+}
+.NavOneTag:hover {
+  color: rgba(255, 255, 255, 0.421);
+}
+.navTwo {
+  color: rgb(2, 1, 2);
+  text-decoration: none;
+  background-color: rgb(221, 218, 218);
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+.navTwo:hover {
+  background-color: #fff;
+  font-weight: 500;
+}
+.sideNav {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: 300;
+  padding: 10px;
+  gap: 20px;
+  background-color: rgba(128, 128, 128, 0.656);
+  width: 200px;
+  height: 100vh;
+}
+.main-section {
+  background-color: rgba(128, 128, 128, 0.114);
+  display: inline-block;
+  padding: 10px;
+}
+.stateLearning {
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.stateLearning h1 {
+  font-size: 80px;
+}
+.ChangingBtn {
+  display: flex;
+  justify-content: center;
+}
+.reducer {
+  text-align: center;
+}
+.btn {
+  height: 30px;
+  width: 120px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btn:hover {
+  background-color: gray;
+
+  cursor: pointer;
+  border: 1px solid black;
+}
+.btn3 {
+  height: 30px;
+  width: 120px;
+  color: rgb(2, 2, 2);
+  background-color: rgb(0, 174, 255);
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btn3:hover {
+  background-color: rgba(19, 194, 238, 0.339);
+
+  cursor: pointer;
+  border: 1px solid black;
+}
+.btn4 {
+  height: 30px;
+  width: 60px;
+  color: rgb(2, 2, 2);
+  background-color: rgb(0, 174, 255);
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btn4:hover {
+  background-color: rgba(19, 194, 238, 0.339);
+
+  cursor: pointer;
+  border: 1px solid black;
+}
+.projectOneAllData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+.prOne .count {
+  font-size: 30px;
+}
+.todoHeader {
+  background-color: rgb(197, 11, 11);
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  width: 170px;
+}
+.todoData {
+  background-color: rgb(192, 188, 188);
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  width: 170px;
+}
+.nothing {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+.inputs {
+  margin: 30px;
+  text-align: center;
+}
+.StackE {
+  justify-content: center;
+}
+.container {
+  display: flex;
+  height: 60px;
+  width: 750px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  margin: 20px auto;
+  align-items: center;
+  padding: 0px 10px;
+  justify-content: space-between;
+}
+.remove {
+  color: red;
+  border: none;
+  background-color: transparent;
+}
+.remove:hover {
+  color: rgba(128, 128, 128, 0.431);
+  cursor: pointer;
+}
+.data {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+  background-color: rgba(128, 128, 128, 0.133);
+  width: 99%;
+  margin: 5px;
+}
+.data:hover {
+  background-color: rgba(128, 128, 128, 0.073);
+}
+
+.about {
+  color: rgb(1, 0, 0);
+  font-size: 28px;
+  font-weight: 650;
+  text-align: center;
+  padding: 30px;
+}
+.contact {
+  color: rgb(1, 0, 0);
+  font-size: 28px;
+  font-weight: 650;
+  text-align: center;
+  padding: 30px;
+}
+.contact span {
+  color: rgb(255, 0, 0);
+  font-size: 32px;
+}
+.Services {
+  color: rgb(1, 0, 0);
+  font-size: 28px;
+  font-weight: 650;
+  text-align: center;
+  padding: 30px;
+}
+.serviceNum {
+  font-size: 60px;
+}
+.singleData {
+  display: flex;
+  width: 800px;
+  background-color: rgba(128, 128, 128, 0.568);
+  color: rgb(2, 2, 2);
+  margin: auto;
+  text-align: center;
+  line-height: 24px;
+  padding: 10px;
+  justify-content: space-between;
+}
+.tagsTo {
+  color: rgb(248, 8, 12);
+  font-weight: 700;
+  font-size: 27px;
+  margin: 4px;
+}
+.Hr {
+  margin: 10px;
+}
+.more {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  color: blue;
+  margin-top: 30px;
+}
+.hrLine {
+  margin: 40px;
+}
+.followField {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactbtn {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.contactField {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  margin: 10px;
+}
+.contactField:hover {
+  color: gray;
+}
+.followME {
+  padding: 60px;
+  width: 100px;
+}
+.spinManage {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  align-items: center;
+}
+.MoreClass {
+  display: flex;
+  justify-content: center;
+}
+.MoreClass:hover {
+  color: rgba(180, 177, 177, 0.804);
+}
+.moreEdit {
+  color: rgb(48, 141, 233);
+  font-style: italic;
+}
+.moreEdit:hover {
+  color: rgba(153, 153, 150, 0.804);
+}
+
+/* Box three styling */
+
+.BoxThree {
+  background-color: rgba(158, 155, 155, 0.704);
+  height: 100vh;
+  position: relative;
+}
+.todosBox {
+  background-color: rgb(192, 188, 188);
+}
+.BoxThree {
+  position: relative;
+}
+.modalBox {
+  position: absolute;
+  top: 35%;
+  right: 36%;
+  background-color: #ffffffd5;
+  height: 100px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 1;
+}
+.Modalbtn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.todosModal {
+  text-align: center;
+
+  flex-direction: column;
+}
+.ModalCancel {
+  background-color: transparent;
+  border: 1px solid red;
+  height: 30px;
+  width: 90px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 540;
+  font-style: italic;
+}
+.ModalCancel:hover {
+  cursor: pointer;
+  font-size: 18px;
+}
+.ModalConfirm {
+  background-color: red;
+  border: 1px solid rgb(0, 0, 0);
+  height: 30px;
+  width: 90px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 550;
+  font-style: italic;
+}
+.ModalConfirm:hover {
+  background-color: rgba(201, 102, 102, 0);
+  cursor: pointer;
+  color: black;
+}
+.BackDrop {
+  position: absolute;
+  top: 0px;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(182, 179, 179, 0.521);
+}
+
+/* project four */
+
+/* .ProFour {
+  height: 50px;
+  background-color: purple;
+  color: #fff;
+} */
+
+.ProFour {
+  display: flex;
+  justify-content: flex-end;
+
+  background-color: purple;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+.PrFourTitle {
+  font-weight: 700;
+  font-size: 24px;
+  margin-right: 400px;
+}
+
+.meetupLinks {
+  /* align-items: center; */
+  text-align: center;
+}
+
+.MeetUpsLink {
+  color: rgb(207, 205, 205);
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 50px;
+}
+.MeetUpTag {
+  margin: 40px;
+}
+.MeetupsData {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MeetUpsLink:hover {
+  cursor: pointer;
+  color: #fff;
+}
+/* .MeetupsData {
+  color: black;
+  margin-top: 80px;
+  float: inline-start;
+} */
+
+.BackToProjects {
+  margin: 5px 55px 0px 0px;
+  color: rgb(215, 212, 212);
+  font-size: 18px;
+  font-weight: 440;
+  background-color: transparent;
+  border: none;
+}
+.BackToProjects:hover {
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+.ShowButton {
+  margin: 700px;
+}
+.naviButtons {
+  text-align: center;
+  margin: 50px;
+}
+.naviBtn {
+  margin: 20px;
+  width: 130px;
+  height: 30px;
+  color: rgb(69, 69, 212);
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.naviBtn:hover {
+  background-color: rgba(255, 255, 0, 0.488);
+  color: rgb(2, 2, 243);
+  cursor: pointer;
+}
+.DataOne {
+  margin: 30px 0px 0px 0px;
+  width: 900px;
+  background-color: rgba(128, 128, 128, 0.437);
+  padding: 20px;
+  line-height: 26px;
+}
+.MeetUpTitle {
+  font-size: 24px;
+  font-weight: 500;
+}
+.meetupSpan {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.newMeetUps {
+  text-align: center;
+  line-height: 25px;
+  margin: 30px;
+}
+
+.formData {
+  margin: 20px 0px 40px 0px;
+}
+.formTitle {
+  text-align: center;
+  align-items: center;
+  margin: 0px 0px 20px 30px;
+  padding: 20px;
+}
+.meetsupForm {
+  width: 630px;
+  height: 550px;
+  /* background-color: rgba(128, 128, 128, 0.313); */
+  margin: auto;
+  border-radius: 5px;
+  /* align-items: center;
+  text-align: center; */
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+.meetupinput {
+  width: 550px;
+  padding: 20px;
+}
+.formLabel {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+#title {
+  width: 100%;
+  border-radius: 5px;
+  padding: 6px 20px;
+  margin: 8px 0;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#image {
+  width: 100%;
+  border-radius: 5px;
+  padding: 6px 20px;
+  margin: 8px 0;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#address {
+  width: 100%;
+  border-radius: 5px;
+  padding: 6px 20px;
+  margin: 8px 0;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#description {
+  width: 100%;
+  padding: 6px 20px;
+  border-radius: 5px;
+  margin: 8px 0;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.subMeetup {
+  color: white;
+  background-color: #812b80;
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  float: right;
+  margin: 0px 20px 25px 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.subMeetup:hover {
+  cursor: pointer;
+  background-color: #9e3d9d;
+}
+.desBox {
+  margin: 5px;
+}
+
+.cardImage {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.cardWrapper {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  min-height: 600px;
+  width: 800px;
+  border-radius: 8px;
+  padding-bottom: 15px;
+  margin: auto;
+}
+.extraWrap {
+  margin: 10px;
+}
+.cardTitle {
+  font-size: 24px;
+  margin: 5px;
+}
+.cardAddress {
+  font-size: 20px;
+  margin: 5px;
+}
+.AddToFav {
+  width: 120px;
+  height: 30px;
+  margin-top: 10px;
+  color: rgb(247, 2, 2);
+  background-color: rgba(240, 6, 6, 0.145);
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.AddToFav:hover {
+  cursor: pointer;
+  background-color: rgba(240, 6, 6, 0);
+  border: 1px solid rgba(143, 9, 9, 0.507);
+}

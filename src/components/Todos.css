@@ -1,0 +1,24 @@
+.todosBox {
+  background-color: rgb(253, 252, 252);
+  width: 280px;
+  height: 90px;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px 20px;
+}
+.todos {
+  text-align: center;
+  /* margin: 10px; */
+}
+.todosTitle {
+  font-size: 24px;
+  text-align: center;
+}
+.todosBox .button {
+  text-align: center;
+  margin-top: 30px;
+}
+.button .btn4 {
+  margin: 0;
+  padding: 0;
+}
