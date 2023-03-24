@@ -18,7 +18,6 @@ import Services from "./components/Services";
 import Goo from "./components/Goo";
 import FollowMe from "./components/FollowMe";
 import UserDetails from "./components/UserDetails";
-import TodosFolder from "./components/TodosFolder";
 import More from "./components/More";
 import HeaderTwo from "./components/HeaderTwo";
 import ProjectOne from "./components/Projects/ProjectOne";
@@ -34,7 +33,6 @@ const Bilal = createContext();
 function App() {
   const [showHeader, setShowHeader] = useState(true);
   const HideHeader = () => {
-    console.log("command Runs");
     setShowHeader(false);
   };
   const ToShowHeader = () => {

@@ -595,11 +595,11 @@
   margin: 5px;
 }
 .AddToFav {
-  width: 120px;
+  min-width: 120px;
   height: 30px;
   margin-top: 10px;
   color: rgb(247, 2, 2);
-  background-color: rgba(240, 6, 6, 0.145);
+  padding: 6px;
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
@@ -609,6 +609,23 @@
 }
 .AddToFav:hover {
   cursor: pointer;
-  background-color: rgba(240, 6, 6, 0);
+  background-color: rgba(240, 6, 6, 0.145);
   border: 1px solid rgba(143, 9, 9, 0.507);
+}
+
+.IfNoFav {
+  text-align: center;
+  font-size: 19px;
+  margin: 5px;
+}
+.wnhavefav {
+  text-align: center;
+  font-size: 28px;
+  margin: 10px;
+}
+.favCount {
+  background-color: #ad66ab;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 6px;
 }

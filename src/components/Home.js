@@ -18,7 +18,6 @@ const Home = () => {
       setLoading(false);
     }
     getData();
-    document.title = `(${state}) Peoples Data`;
   }, [state]);
 
   return (
